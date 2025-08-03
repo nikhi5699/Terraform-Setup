@@ -14,9 +14,16 @@ This project includes:
   - Provision Cloud infrastructure (VPC, other Networking components, Hosted Zone for DNS, Certificate using AWS Certificate Manager, EC2, RDS, Load Balancer)
   - Deploy a Python-based REST API application
 
-## 📌 Prerequisites
+- ## 📋 Prerequisites
 
-- 🔧 AWS User(best with user with AdministratorAccess ) with Access keys, a registered Domain name and most importantly a base platform(local machine or any host with Terraform, Git Installed)
+Before you begin, make sure you have the following:
+
+- 🛡️ **AWS Account** with appropriate IAM permissions
+- 💻 **Terraform CLI** installed (v1.0+ recommended)
+- 🐙 **Git** installed and access to both repositories
+- 🔐 **SSH Key Pair** for accessing Jenkins EC2
+- 🐍 **Python**
+- 🌐 **Internet Access** to download Jenkins and plugins
 
 ## 🛠️ Stack Used
 
