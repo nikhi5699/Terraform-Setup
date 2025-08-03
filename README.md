@@ -28,3 +28,8 @@ This project includes:
 <img width="570" height="285" alt="image" src="https://github.com/user-attachments/assets/cd81b5c4-91f8-46dc-b499-ce4b3f01fa05" />
 
 
+Https connection established from Internet to Jenkins host server 
+<img width="1365" height="672" alt="image" src="https://github.com/user-attachments/assets/46d98c8c-9796-4ab2-a640-133b27ce0c8f" />
+
+
+
