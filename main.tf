@@ -57,14 +57,14 @@ module "alb" {
 
 module "hosted_zone" {
   source          = "./hosted-zone"
-  domain_name     = "jenkins.jhooq.org"
+  domain_name     = "jenkins.devopswithnikhil.com"
   aws_lb_dns_name = module.alb.aws_lb_dns_name
   aws_lb_zone_id  = module.alb.aws_lb_zone_id
 }
 
 module "aws_ceritification_manager" {
   source         = "./certificate-manager"
-  domain_name    = "jenkins.jhooq.org"
+  domain_name    = "jenkins.devopswithnikhil.com"
   hosted_zone_id = module.hosted_zone.hosted_zone_id
 }
 
