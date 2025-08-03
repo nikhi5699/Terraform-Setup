@@ -2,17 +2,21 @@
 
 # 🚀 Jenkins Infrastructure Setup for Python REST API Deployment
 
-This repository provisions the infrastructure required to run **Jenkins** using Terraform. The Jenkins server is configured to integrate with a separate Git repository that contains Terraform code for deploying a **Python REST API application**.
+This repository provisions the AWS Cloud infrastructure required to create **Jenkins host server** using Terraform. The Jenkins server is configured to integrate with a separate Git repository that contains Terraform code for deploying a **Python REST API application**.
 
 ## 📌 Project Overview
 
 This project includes:
 
-- 🔧 Infrastructure setup for Jenkins (on AWS EC2 or other preferred cloud)
+- 🔧 Infrastructure setup for Jenkins (on AWS EC2)
 - ⚙️ Jenkins configuration to:
   - Pull Terraform code from an external Git repository -** Link to be added soon**
-  - Provision cloud infrastructure (e.g., VPC, EC2, RDS, Load Balancer)
+  - Provision Cloud infrastructure (VPC, other Networking components, Hosted Zone for DNS, Certificate using AWS Certificate Manager, EC2, RDS, Load Balancer)
   - Deploy a Python-based REST API application
+
+## 📌 Prerequisites
+
+- 🔧 AWS Account, registerered Domain name and most importantly a base platform(local machine or any host with Terraform, Git Installed)
 
 ## 🛠️ Stack Used
 
