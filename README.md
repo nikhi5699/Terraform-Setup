@@ -10,7 +10,7 @@ This project includes:
 
 - 🔧 Infrastructure setup for Jenkins (on AWS EC2 or other preferred cloud)
 - ⚙️ Jenkins configuration to:
-  - Pull Terraform code from an external Git repository
+  - Pull Terraform code from an external Git repository -** Link to be added soon**
   - Provision cloud infrastructure (e.g., VPC, EC2, RDS, Load Balancer)
   - Deploy a Python-based REST API application
 
@@ -23,4 +23,8 @@ This project includes:
 - **Version Control:** Git
 
 ## 📂 Repo Structure
+
+
+<img width="570" height="285" alt="image" src="https://github.com/user-attachments/assets/cd81b5c4-91f8-46dc-b499-ce4b3f01fa05" />
+
 
