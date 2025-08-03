@@ -16,7 +16,7 @@ This project includes:
 
 ## 📌 Prerequisites
 
-- 🔧 AWS Account, registerered Domain name and most importantly a base platform(local machine or any host with Terraform, Git Installed)
+- 🔧 AWS User(best with user with AdministratorAccess ) with Access keys, a registered Domain name and most importantly a base platform(local machine or any host with Terraform, Git Installed)
 
 ## 🛠️ Stack Used
 
